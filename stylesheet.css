@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    margin-left: 50px;
+    margin: 0 auto;
     font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif; 
     font-size: 18px;
     max-width: 100%;
@@ -294,6 +294,9 @@ header {
 
 /* レスポンシブ */
 @media (max-width: 767px) {
+    body {
+        margin-left: 50px;
+    }
     .container {
         width: 407px;
         max-width: 100%;
