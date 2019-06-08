@@ -350,4 +350,7 @@ header {
         font-size: 14px;
         max-width: 100%;
     }
+    .link-content02 {
+        margin-left: 0;
+    }
 }
